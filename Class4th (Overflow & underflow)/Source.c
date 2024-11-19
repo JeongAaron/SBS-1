@@ -63,16 +63,16 @@ void main()
 
 #pragma endregion
 
-	#pragm region 부호 없는 자료형
+#pragma region 부호 없는 자료형
 
-		// unsigned short mineral = 65535;
-		// unsigned int gas = -1;
+	// unsigned short mineral = 65535;
+	// unsigned int gas = -1;
 
-		// printf("mineral 변수의 값 : %d\n", mineral);
-		// printf("gas 변수의 값 : %u\n", gas);
-		// printf("gas 변수의 값 : %d\n", gas);
+	// printf("mineral 변수의 값 : %d\n", mineral);
+	// printf("gas 변수의 값 : %u\n", gas);
+	// printf("gas 변수의 값 : %d\n", gas);
 
-		// unsgined로 변수를 선언하면 %d보다는 %u로 출력하는게 좋다.
+	// unsgined로 변수를 선언하면 %d보다는 %u로 출력하는게 좋다.
 
 #pragma endregion
 
