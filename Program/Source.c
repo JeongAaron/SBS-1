@@ -1,62 +1,77 @@
 #include <stdio.h> 
 
-#define SIZE 10
-
-void main() 
+void main()
 {
 
-#pragma region 자료형 변환
+#pragma region 반복문
 
-	// 서로 다른 자료형을 가지고 있는 변수끼리
-	// 연산이 이루어질 때 기존에 지정했던 자료형을
-	// 다른 자료형으로 변환하는 과정
+	// 프로그램 내에서 특정한 작업을 반복적으로 수행하는 명령문
 
-#pragma region 암묵적 형변환
+#pragma region 증감 연산자
 
-	// 서로 다른 자료형으로 연산이 이루어질 때
-	// 자료형의 크기가 큰 자료형으로 변환되는 과정
+	// 피연산자를 하나씩 증감시킬 때 사용하는 연산자
 
-	// int integer = 10;
-	// float decimal = 6.5f;
+	// int x = 0;
+	// int vectorX = ++x;
 	
-	// printf("integer 변수와 decimal 변수를 연산한 결과 : %f\n", integer + decimal);
+	// printf("전위 증가한 x의 값 : %d\n", x); // x = 1
+	// printf("vectorX의 값 : % d\n",vectorX); // vectorX = 1
+	 
+	// vectorX = --x;
+	 
+	// printf("전위 감소한 x의 값 : %d\n", x); // x = 0
+	// printf("vectorX의 값 : % d\n", vectorX); //  vectorX = 0
 
-	// 표현 범위가 작은 데이터에 표현 범위가 큰 데이터를
-	// 저장하게 되면 암묵적으로 데이터 손실이 발생
+	// 전위 증감 연산자는 변수의 값을 증감시킨 후에 연산을 수행
 
-	// integer = decimal;
-
-	// printf("integer 변수의 값 : %d\n", integer);
-
-	// 정수형에서 실수형으로 암묵적 형변환은 가능하지만,
-	// 실수형에서 정수형으로 암묵적 형변환은 불가능
-
-#pragma endregion
-
-#pragma region 명시적 형변환
-
-	// 연산이 이루어지기 전에 사용자가 직접 자료형을 변환하는 과정
-
-	// int attack = 10;
-	// int health = 3;
-	// float damage = (float)attack / health;
+	// int y = 0;
+	// int vectorY = y++;
 	
-	// printf("받은 데미지의 값 : %f\n", damage);
+	// printf("후위 증가한 y의 값 : %d\n", y); // y = 1
+	// printf("vectorY의 값 : % d\n", vectorY); // vectorY = 0
+	
+	// vectorY = y--;
+	
+	// printf("후위 감소한 y의 값 : %d\n", y); // y = 0
+	// printf("vectorY의 값 : % d\n", vectorY); //  vectorY = 1
 
-	// 정수형 변수끼리 연산을 수행하게 되면 정수의 결과값만 가질 수 있다.
+	// 후위 증감 연산자는 연산을 수행한 다음 변수의 값을 증감시킨다.
+
+#pragma endregion
+
+#pragma region for 문(초기식; 조건식; 증감식){실행할 내용}
+
+	// for (int i = 0; i < 5; i++)
+	// {
+	// 		printf("Hello\n");
+	// }
+
+	// 초기식을 연산하여 조건식의 결과에 따라 특정한 횟수만큼 반복하는 반복문
+
+	// for 문의 경우 조건이 끝나는 형태와 반대로 초식을 연산하게 되면
+	// 조건이 일치하지 않아 계속 반복적으로 실행되는 문제가 발생
+
+#pragma endregion
+
+#pragma region while 문(조건){실행할 내용 (거짓이 되도록 지정해줘야함)}
+
+	// 특정 조건을 만족할 때까지 계속해서 주어진 명령문을 실행하는 반복문
+	
+	//int count = 1;
+	
+	//while (count <=5)
+	//{
+	//	printf("%d\n", count);
+	//	count++;
+	//}
+
+	// while 문의 경우 위에서 아래로 실행되며,
+	// 아래에 있는 명령문의 실행이 다 끝나면
+	// 다시 위에 있는 명령문으로 돌아가서 실행합니다.
 
 #pragma endregion
 
 #pragma endregion
 
-#pragma region 매크로
-
-	// 프로그램 내에서 특정한 데이터가 문자열로 정의되고 처리되는 과정
-
-	// printf("매크로 SIZE의 값 : %d\n", SIZE);
-
-	// 매크로의 경우 자료형이 존재하지 않으므로, 메모리 공간을 가지고 있지 않다.
-
-#pragma endregion
 
 }
