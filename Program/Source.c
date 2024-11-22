@@ -109,11 +109,48 @@ void main()
 
 	p = &charactor;
 
-	printf("charctor 주소 값 : % p\n", &charactor);
+	printf("p 변수의 값 : %c\n", *(char*)p);
 
 	*(char*)p = 'B';
 
-	printf("charctor 주소 값 : % p\n", &charactor);
+	printf("변경된 p 변수의 값 : %c\n", *(char*)p);
+
+	printf("\n");
+
+	p = &integer;
+
+	printf("p 변수의 값 : %d\n", *(int*)p);
+
+	*(int*)p = 15;
+
+	printf("변경된 p 변수의 값 : %d\n", *(int*)p);
+
+	printf("\n");
+
+	p = &decimal;
+
+	printf("p 변수의 값 : %f\n", *(float*)p);
+
+	*(float*)p = 3.25f;
+
+	printf("변경된 p 변수의 값 : %f\n", *(float*)p);
+
+
+	
+	
+
+
+	
+
+	
+
+
+
+
+
+
+
+
 
 
 	
