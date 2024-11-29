@@ -24,6 +24,7 @@
     <ProjectGuid>{bda5ccfb-acc3-43de-9f44-17e485e5f322}</ProjectGuid>
     <RootNamespace>Class2thVeriable</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Class02th (Veriable)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
