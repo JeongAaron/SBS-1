@@ -5,25 +5,27 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program", "Program.vcxproj", "{ED3BF225-63BF-41BD-8977-7FD7C51AD75E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class1th (Compile)", "..\Class1th (Compile)\Class1th (Compile).vcxproj", "{75C68F03-9C0F-4DE5-A2E3-7DEC6EEE7CF0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class01th (Compile)", "..\Class1th (Compile)\Class1th (Compile).vcxproj", "{75C68F03-9C0F-4DE5-A2E3-7DEC6EEE7CF0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class2th (Veriable)", "..\Class2th (Veriable)\Class2th (Veriable).vcxproj", "{BDA5CCFB-ACC3-43DE-9F44-17E485E5F322}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class02th (Veriable)", "..\Class2th (Veriable)\Class2th (Veriable).vcxproj", "{BDA5CCFB-ACC3-43DE-9F44-17E485E5F322}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class4th (Overflow & underflow)", "..\Class4th (Overflow & underflow)\Class4th (Overflow & underflow).vcxproj", "{D9E42E7F-C393-49D4-A1C2-040BB4D24855}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class04th (Overflow & underflow)", "..\Class4th (Overflow & underflow)\Class4th (Overflow & underflow).vcxproj", "{D9E42E7F-C393-49D4-A1C2-040BB4D24855}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3th (Bit)", "..\Class3th (Bit)\Class3th (Bit).vcxproj", "{E021FD9E-E933-4828-BAC7-C32FF3EA4C59}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class03th (Bit)", "..\Class3th (Bit)\Class3th (Bit).vcxproj", "{E021FD9E-E933-4828-BAC7-C32FF3EA4C59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (Conditional Statement)", "..\Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{09E54F91-F33D-40FE-8BBC-2BF96253EC50}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class05th (Conditional Statement)", "..\Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{09E54F91-F33D-40FE-8BBC-2BF96253EC50}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class6th (Type Conversion)", "..\Class6th (Type Conversion)\Class6th (Type Conversion).vcxproj", "{A4291EB9-4048-4874-A09E-B03CC5AE0F44}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class06th (Type Conversion)", "..\Class6th (Type Conversion)\Class6th (Type Conversion).vcxproj", "{A4291EB9-4048-4874-A09E-B03CC5AE0F44}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class7th (Iteration Statement)", "..\Class7th (Iteration Statement)\Class7th (Iteration Statement).vcxproj", "{413A06BA-3E4C-4770-B38B-954E9488A261}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class07th (Iteration Statement)", "..\Class7th (Iteration Statement)\Class7th (Iteration Statement).vcxproj", "{413A06BA-3E4C-4770-B38B-954E9488A261}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class8th (Pointer)", "..\Class8th (Pointer)\Class8th (Pointer).vcxproj", "{D78760F1-277B-4492-B04E-F5D301BB3B99}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class08th (Pointer)", "..\Class8th (Pointer)\Class8th (Pointer).vcxproj", "{D78760F1-277B-4492-B04E-F5D301BB3B99}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class9th (Arragement)", "..\Class9th (Arragement)\Class9th (Arragement).vcxproj", "{EF418F7D-2CA6-4FBD-86CC-9AB2379D848B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class09th (Arragement)", "..\Class9th (Arragement)\Class9th (Arragement).vcxproj", "{EF418F7D-2CA6-4FBD-86CC-9AB2379D848B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class10th (Function)", "..\Class10th (Function)\Class10th (Function).vcxproj", "{12D868E7-9520-4F93-AAD2-4D3E71626C97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class11th (Dynamic Allocation)", "..\Class11th (Dynamic Allocation)\Class11th (Dynamic Allocation).vcxproj", "{08BEEE81-C767-490A-9774-8198B089C147}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,14 @@ Global
 		{12D868E7-9520-4F93-AAD2-4D3E71626C97}.Release|x64.Build.0 = Release|x64
 		{12D868E7-9520-4F93-AAD2-4D3E71626C97}.Release|x86.ActiveCfg = Release|Win32
 		{12D868E7-9520-4F93-AAD2-4D3E71626C97}.Release|x86.Build.0 = Release|Win32
+		{08BEEE81-C767-490A-9774-8198B089C147}.Debug|x64.ActiveCfg = Debug|x64
+		{08BEEE81-C767-490A-9774-8198B089C147}.Debug|x64.Build.0 = Debug|x64
+		{08BEEE81-C767-490A-9774-8198B089C147}.Debug|x86.ActiveCfg = Debug|Win32
+		{08BEEE81-C767-490A-9774-8198B089C147}.Debug|x86.Build.0 = Debug|Win32
+		{08BEEE81-C767-490A-9774-8198B089C147}.Release|x64.ActiveCfg = Release|x64
+		{08BEEE81-C767-490A-9774-8198B089C147}.Release|x64.Build.0 = Release|x64
+		{08BEEE81-C767-490A-9774-8198B089C147}.Release|x86.ActiveCfg = Release|Win32
+		{08BEEE81-C767-490A-9774-8198B089C147}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
