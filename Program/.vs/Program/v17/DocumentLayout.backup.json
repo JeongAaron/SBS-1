@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED3BF225-63BF-41BD-8977-7FD7C51AD75E}|Program.vcxproj|C:\\Users\\lovej\\Desktop\\SBS-\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED3BF225-63BF-41BD-8977-7FD7C51AD75E}|Program.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BEEE81-C767-490A-9774-8198B089C147}|..\\Class11th (Dynamic Allocation)\\Class11th (Dynamic Allocation).vcxproj|C:\\Users\\lovej\\Desktop\\SBS-\\Class11th (Dynamic Allocation)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\lovej\\Desktop\\SBS-\\Class11th (Dynamic Allocation)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class11th (Dynamic Allocation)\\Source.c",
+              "ToolTip": "C:\\Users\\lovej\\Desktop\\SBS-\\Class11th (Dynamic Allocation)\\Source.c",
+              "RelativeToolTip": "..\\Class11th (Dynamic Allocation)\\Source.c",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-04T09:33:12.667Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\lovej\\Desktop\\SBS-\\Program\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAIwHQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-22T11:37:33.215Z",
               "EditorCaption": ""

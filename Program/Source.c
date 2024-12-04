@@ -1,5 +1,7 @@
 #include <stdio.h> 
 
+#include <stdlib.h>
+
 #include <math.h>
 
 struct GameObject
@@ -17,6 +19,12 @@ struct Vector2
 {
 	float x;
 	float y;
+};
+
+struct Node
+{
+	int data;
+	struct Node * next;
 };
 
 int main()
@@ -59,29 +67,51 @@ int main()
 
 #pragma region 두 점 사이의 거리
 
-	printf("100의 제곱근 : %lf\n", sqrt(100));
+	// printf("100의 제곱근 : %lf\n", sqrt(100));
 
-	printf("10² : %lf\n", pow(10,2));
+	// printf("10² : %lf\n", pow(10,2));
 
-	struct Vector2 charactor = {0, 0};
+	// struct Vector2 charactor = {0, 0};
 
-	struct Vector2 monster = { 5,5 };
+	// struct Vector2 monster = { 5,5 };
 	
-	float x = pow(monster.x - charactor.x, 2);
+	// float x = pow(monster.x - charactor.x, 2);
 	
-	float y = pow(monster.y - charactor.y, 2);
+	// float y = pow(monster.y - charactor.y, 2);
 	
-	float range = sqrt(x + y);
+	// float range = sqrt(x + y);
 	
-	if (range <= 3.0f)
-	{
-		printf("공격 상태");
-	}
+	// if (range <= 3.0f)
+	// {
+	//	 printf("공격 상태");
+	// }
 
-	else
-	{
-		printf("이동 상태");
-	}
+	// else
+	// {
+	//	 printf("이동 상태");
+	// }
+
+#pragma endregion
+
+#pragma region 자기 참조 구조체
+
+	// 구조체 내부에 자기 자신의 자료형을 멤버 변수로 가지고 있는 구조체
+
+	struct Node * node1 = malloc(sizeof(struct Node));
+	struct Node * node2 = malloc(sizeof(struct Node));
+	struct Node * node3 = malloc(sizeof(struct Node));
+
+	node1->data = 10;
+	node1->next = &node2;
+	node2->data = 20;
+	node2->next = &node3;
+	node3->data = 30;
+	node3->next = NULL;
+
+	int* currentNode = no
+
+	
+
 
 #pragma endregion
 
