@@ -2,6 +2,8 @@
 
 #include <stdarg.h>
 
+#include "Calculator.h"
+
 void function()
 {
 	printf("Function...\n");
@@ -80,6 +82,8 @@ void dynamicfunction(int count, ...)
 	// va_end : 가변 인수 포인터가 끝났을 때 NULL로 초기화 한다.
 	va_end(list);
 }
+
+float (*fuctionPointer)(float, float);
 
 void main()
 {
@@ -173,6 +177,30 @@ void main()
 	// 동적으로 인수를 받을 수 있도록 설정되어 있는 매개 변수
 
 	// dynamicfunction(1, 10, 20, 30);
+
+#pragma endregion
+
+#pragma region 함수 포인터
+
+	// 함수의 주소 값을 저장하고 가리킬 수 있는 변수
+
+	fuctionPointer = Add;
+
+	printf("%f\n", fuctionPointer(5, 5));
+
+	fuctionPointer = Subtract;
+
+	printf("%f\n", fuctionPointer(5, 5));
+
+	fuctionPointer = Multiply;
+
+	printf("%f\n", fuctionPointer(5, 5));
+
+	fuctionPointer = Divide;
+
+	printf("%f\n", fuctionPointer(5, 5));
+
+	// 함수 포인터는 함수의 반환형과 매개 변수의 형태가 일치해야 한다.
 
 #pragma endregion
 
